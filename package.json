@@ -1,7 +1,7 @@
 ﻿{
   "name": "jp.ootr.laser-pointer",
   "displayName": "Laser Pointer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "unity": "2022.3",
   "description": "Laser Pointer for VRChat",
