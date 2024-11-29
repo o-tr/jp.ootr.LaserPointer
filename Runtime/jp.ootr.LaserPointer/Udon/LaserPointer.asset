@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: LaserPointer
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: c026f622f021840ecae75d14fb6d195e, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: c38a9c6b2ef175348a8a9b53e3de98df, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 0b83b84cec434f47844f7eb9ff96f433, type: 3}

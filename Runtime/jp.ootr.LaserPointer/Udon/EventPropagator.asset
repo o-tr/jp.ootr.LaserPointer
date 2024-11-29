@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: EventPropagator
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 1aecea0e8f2444ce79f9d5ca11475687, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: f47591ee8dd46a844a3181f70a2ea09e, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: ed403d1ae7e2472585890454c9b28aec, type: 3}
@@ -61,7 +61,7 @@ MonoBehaviour:
       Data: 3|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: jp.ootr.LaserPointer.LaserPointer, Assembly-CSharp
+      Data: jp.ootr.LaserPointer.LaserPointer, jp.ootr.LaserPointer
     - Name: 
       Entry: 8
       Data: 

@@ -1,6 +1,5 @@
 using UdonSharp;
 using UnityEngine;
-using VRC.Udon.Common;
 
 namespace jp.ootr.LaserPointer
 {
@@ -9,13 +8,10 @@ namespace jp.ootr.LaserPointer
     {
         [SerializeField] private LaserPointer laserPointer;
 
-        public override void InputUse(bool value, UdonInputEventArgs args)
+        public override void OnPickupUseDown()
         {
-            base.InputUse(value, args);
-            if (value)
-            {
-                laserPointer.Interact();
-            }
+            if (laserPointer == null) return;
+            laserPointer.Interact();
         }
     }
 }
